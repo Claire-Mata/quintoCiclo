@@ -1,0 +1,87 @@
+#header, #footer{
+    width: 100%;
+    height: 100px;
+    
+}
+#header{
+    height: auto;
+    /*especifica que pasa con el contenido como un elemento
+    de la caja; regula la visibilidad de los contenidos
+    que sobresalen de una caja*/
+    overflow: auto;
+  
+   
+   background-color: rgb(100, 207, 146);
+
+}
+
+ul{
+    float: right;
+    /* display: inline-block;*/    
+}
+
+/*esto no tiene mucho sentido si lo quiero hacer
+para todo pos solo es li*/
+li{
+    
+    color: rgb(255, 255, 255);
+    padding:20px;
+    display: inline-block;
+}
+.col-1, .col-2{  
+    clear: right;  
+    float: left; /*este hace que se pongan en linea
+    si le doy para right solo se invierte el flujo*/
+    
+    height: 600px;
+}
+.col-1{
+    width: 30%;
+    margin: 0;
+    padding: 0%;
+    clear: right;
+    }
+
+.col-2{
+  
+    float: right;
+    overflow: auto;
+    padding: 0;
+    width: 60%;
+    display: flex;
+  
+    flex-direction: column;
+}
+#caja3 , #caja4, #caja5{
+    width: 100px;
+    height: 100px;
+   text-align: center;
+    /*con esto podes hacer circulos*/
+    border-radius: 50px;
+    background-color: rgb(216, 106, 106) ;
+}
+#caja3:hover, #caja4:hover, #caja5:hover{
+    background-color: brown;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: rgb(28, 250, 183);
+}
+
+#footer{
+    /*sirve para elevar los elementos
+    z-index: 100; hace libera o me recupera el flujo
+    normal de ese elemento, both me limpia para ambos
+    flujos, se aplica al footer porque es el elemento
+    afectado por float*/
+    clear: both;
+
+    background-color: rgb(39, 236, 154);
+}
+
+    img{
+        width: 125px;
+      
+    }

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CSS</title>
+    <!--cascada style shift?
+    este tambien no se debe hacer 
+    pero es un poco mas optima
+
+    <style>
+        body{
+            overflow: hidden;
+        }
+        h1, p{
+            /*esto hace que todos se pongan en linea
+            pero como tenemos un volumen de caja 
+            muy grande pos se montan
+            display: line;
+            si yo tengo otra pagina y nesecito que 
+            tenga los mismos stilos tendria que 
+            modificarlo en la otra pagina y es
+            perdida de tiempo*/
+            background-color:skyblue;
+            width: 400%;
+            height: 500%;
+            
+            /*comentario en css
+            es lo que me separa del contenedor padre*/
+            margin:80px 20px;
+            /*margen interno*/
+            padding:10px;
+            /*borde de la ajita p todos estos 3
+            me generan volumen de caja
+            dotted es para punteado*/
+            border:10px solid gold;
+        }
+        span{
+            background-color: rgb(134, 122, 212);
+            color: azure;
+        }
+        #p3{
+            background-color: turquoise;
+            color: sienna;
+        }
+        .familiap{
+            background-color: rgb(12, 212, 112);
+
+        }
+    </style>-->
+</head>
+<body>
+   <!-- forma no tan optima 
+        desventajas
+    NO MEZCLAR LA TECNOLOGIA
+    se se un codigo poco legible
+    todo se pone en linea-->
+    <h1 style="background-color: cadetblue; color: rgb(255, 255, 255);">El indomable</h1>
+    <p style="background-color: aquamarine; color: white;">esta bella historia se trata de dos chicos</p>
+    <p style="background-color: cadetblue; color: white;">uno llamado wei wuxian y el otro Lan zhan</p>
+    <h1>El indomable</h1>
+    <p class="familiap">esta bella historia se trata de dos chicos</p>
+    <p>uno llamado wei wuxian y el otro Lan zhan</p> 
+    <p id="p3">todos piensan que son novios pero solo Dios sabe</p>  
+    <!--el id nunca debe ser el mismo, si los dos deben de ser
+    del mismo color por ejemplo se usan class-->
+    <p class="familiap">el conejo/liebre en la antigua china era el Dios de los homos</p>
+    <span>Esto es un span</span>
+</body>
+</html>

@@ -1,0 +1,56 @@
+#parent{
+    background-color: rgb(172, 20, 243);
+    width: 100%;
+    height: 900;
+    /*los elementos se ordena 
+    con un espacio normal
+    una forma sencilla de ordenar en fila
+    (eso con flez va) aqui tenemos
+    1- un factor de crecimiento
+    2-el factor de decrecimiento
+    3-un factor base o valor base
+    con estos 3 elementos flex-box nos
+    permite hacer chikitas maquetas
+    flex-grow:1 es por como esta por defecto
+    tambien se puede hacer individualmente osea
+    solo en un div*/
+    display: flex;
+    /*flex-wrap: nowrap;
+    si quiero mover varios elementos yo utilizo
+    flex-start, si hago flex-end me mueve la caja al 
+    final, este me lo mueve de forma horizontal (el
+    justify-content)
+    justify-content: flex-end ; ordenar los elementnto
+    de tal manera que sea equitativo, este me genera un esoacio
+    igual incluido el espacio del borde(space-around,
+    similiar es el space_between, me genera el mismo espacio
+    pero no toma encuenta los extremos, me hace un espacio identico
+    en todas empezando con los extremos (space-evenly)*/
+    justify-content: center;
+    flex-direction: column;
+    /*alidn-items me los alinea pero de forma vertical
+    el justify es horizontal y este es vertical*/
+    align-items: flex-end;
+}
+
+#parent>div{
+    width: 300px;
+    height: 100px;
+    background-color: peru;
+    margin: 5px;
+}
+/*flex basis tamanio de base de todos los elementos
+y me lo ordena con todo el tamanio que yo le asigne
+ el flex-direction: coulumb me los ordena en columna
+ y si pongo row-reverse, me los ordena de derecha a 
+ izquierda en este caso empieza desde la caja 6, asi
+ que me determina en que direccion va a fluir
+ los elementos a los que los asigna
+ el flex-wrap:wrap; originalmente los elementos tiene
+ 200px y la caja mide 900 y si hay 6 cajas de 200px, no
+ caben, asi que los pasa a la segunda fila y si le ponemos
+ "nowrap, y este nos sirve para ordenarlo a como sea en una
+ linea*/
+#caja1{
+   /*flex-grow: 5;*/
+}

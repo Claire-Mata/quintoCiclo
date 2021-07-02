@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+}
+
+#cuadro1 , #cuadro2, #cuadro3{
+    width: 100px;
+    height: 100px;
+    /*con esto podes hacer circulos*/
+    border-radius: 20px;
+}
+
+/* static, relative, absolute, fixed
+el body por default viene absoluto
+*/
+
+/*#container{
+    width: 100%;
+    height: 100px;
+    background-color: dimgray;
+    la posicion relativa no
+    afecta el flujo, en este caso va,
+    la posicion relativa se sale del 
+    flujo normal y asi con top lo podemos
+    manipular, quien se mueve es el container porque 
+    es relativo al padre osea al body, si hacemos 
+    relativo al cuadro 1 si lo podemos modificar
+    ; el top es aplicar un margen 50, el bottom
+    es para poder subir el container, top es para 
+    bajarlo, left hace un margen respecto a la 
+    izquierda y si pongo right lo hace a la 
+    derecha
+    position: relative;
+    top: 50px;
+    bottom: 0;
+    left: 50px;
+    aqui el container queda fijo arriba al dar
+    scrool  
+    position: fixed;
+    top: 0;
+
+}*/
+
+#cuadro1{
+background-color: darkorchid;
+
+/*se comporta similar pero tiene una diferencia
+radica en que del contenedor toma
+una referencia en el que se encuentra y se va 
+para la derecha o izquierda, aqui tomas los margenes
+mientras que en el relativo es relativo a donde este
+y aqui es que si dices a la derecha es a la derecha
+si pones derecha=0 se va al final del margen a la derecha
+position: absolute;
+left: 50px;*/
+
+}
+
+#cuadro2{
+    background-color: darksalmon;
+}
+
+#cuadro3{
+    background-color: darkseagreen;
+}

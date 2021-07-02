@@ -1,0 +1,24 @@
+ /*tipo de pantalla para telefono*/
+   /* lo que vimos en clase 5*/    
+
+#header {
+        background-color:rgb(219, 89, 89);
+}
+ul{
+    display: run-in;
+}
+img{
+    width: 100px;
+    height: auto;
+}
+
+/*todas las clases que cumplan 
+el siguiente patron*/
+[class*="col-sm-"]{
+    float: left;
+height: 300px;
+width: 100%;
+background-color: rgb(13, 219, 255);
+}
+
+

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="Style4.css">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+   <link rel="stylesheet" media="(max-width:600px)" href="phone.css">
+    <title>box model</title>
+
+   <!-- <style>
+        /*LO QUE VIMOS EN 
+        CLASE 5 AGREGAMOS LA IMAGEN
+        tipo de pantalla para telefono*/
+       
+        @media only screen and (max-width: 600px) {
+            #header {
+                background-color:rgb(219, 89, 89);
+        }
+        ul{
+            display: none;
+        }
+        img{
+            width: 100px;
+            height: auto;
+        }
+        .col-1, .col-2{
+
+
+float: left;
+height: 300px;
+width: 100%;
+background-color: rgb(13, 219, 255);
+}
+
+    }
+        /*desktop*/
+        @media only screen and (min-width: 768px){
+            #header {
+                background-color:rgb(134, 243, 113);
+        }
+        ul{
+            display: run-in;
+        }
+        img{
+            width: 50px;
+            height: auto;
+        }
+        }
+        /*tablets*/
+        @media only screen and (min-width: 600px){
+            #header {
+                background-color:rgb(113, 126, 243);
+        }
+        ul{
+            display: run-in;
+        }
+        img{
+            width: 125px;
+            height: auto;
+        }
+        
+
+        }
+        /*for tables*/
+        @media only screen and (min-width: 992px){
+            #header {
+                background-color:rgb(20, 42, 243);
+        }
+        ul{
+            display: run-in;
+        }
+        img{
+            width: 70px;
+            height: auto;
+        }
+        }
+    
+    </style>-->
+</head>
+<body>
+    <div id="header">
+        <img src="img.jpeg" alt="foto">
+        <ul>
+            <!--
+                <li><a href="#">Item 1</a></li>
+            <li><a href="#">Item 2</a></li>
+            <li><a href="#">Item 3</a></li>
+            esto me quita las lines de link-->
+           <a href="#"><li>Item 1</li></a> 
+           <a href="#"><li>Item 2</li></a> 
+           <a href="#"><li>Item 3</li></a> 
+            
+        </ul>
+    </div>
+    <!--no es semanticamente, pero es para bloquerar
+    el flujo 
+    <div id="clear"></div> ahi hacemos otra clase-->
+    <div class = "col-1 col-sm-1">
+
+    </div>
+    <div class = "col-2 col-sm-2">
+        <h1>Bienvenido a mi web</h1>
+
+    </div>
+    <!--<div class = "col-3">
+
+    </div> -->
+    
+    <div id="footer">
+
+    </div>
+    
+</body>
+</html>

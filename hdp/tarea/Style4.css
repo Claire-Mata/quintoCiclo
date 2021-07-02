@@ -1,0 +1,86 @@
+#header, #footer{
+    width: 100%;
+    height: 100px;
+    
+}
+
+#header{
+     height: auto;
+     /*especifica que pasa con el contenido como un elemento
+     de la caja; regula la visibilidad de los contenidos
+     que sobresalen de una caja*/
+     overflow: auto;
+   
+    
+    background-color: rgb(100, 207, 146);
+
+}
+
+#footer{
+    /*sirve para elevar los elementos
+    z-index: 100; hace libera o me recupera el flujo
+    normal de ese elemento, both me limpia para ambos
+    flujos, se palica al footer porque es el elemento
+    afectado por float*/
+    clear: both;
+    background-color: rgb(0, 136, 68);
+}
+
+.col-1, .col-2 {  
+   
+    float: left; /*este hace que se pongan en linea
+    si le doy para right solo se invierte el flujo*/
+    
+    height: 300px;
+}
+.col-1{
+
+    /*esto hace que quepa hasta donde quepa xd
+    esto evita que el contenido sea afectado
+    al disenio*/
+    box-sizing: border-box;
+    padding: 80px;
+    width: 30%;
+    background-color: rgb(13, 219, 255);
+}
+
+.col-2{
+    width: 70%;
+    background-color: deepskyblue;
+}
+
+ul{
+    float: right;
+    /* display: inline-block;*/    
+}
+
+/*esto no tiene mucho sentido si lo quiero hacer
+para todo pos solo es li*/
+li{
+    
+    color: rgb(255, 255, 255);
+    padding:20px;
+    display: inline-block;
+}
+/*cuando pase sobre el, el raton "hover*/
+
+li:hover{
+    background-color: rgb(164, 218, 71);
+
+}
+
+body{
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 30px;
+    font-weight: bolder;
+}
+img{
+    width: 125px;
+  
+}
+/* CLASE 5
+#clear{
+    clear: both;
+}
+medias querys es aquella sentecia que se hace llamado al estylo,
+dependiendo de cada pantalla*/

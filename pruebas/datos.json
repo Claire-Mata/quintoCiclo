@@ -1,0 +1,22 @@
+{
+    "Titulo": "Obsession",
+    "Artista": "EXO",
+    "Anio": 2019,
+    "Duracion": "3:25:00",
+    "Canciones":[
+        "Trouble",
+        "Jekyll",
+        "Groove",
+        "Non Stop",
+        "Ya Ya Ya",
+        "Baby You Are",
+        "Day After Day",
+        "Butterfly Effect"
+    ],
+
+    "Vocalista":{
+        "nombre": "D.O",
+        "edad": "28",
+        "profesion": "Cantante"
+    }
+}

@@ -1,0 +1,39 @@
+
+body{
+    overflow: hidden;
+}
+h1, p{
+    /*esto hace que todos se pongan en linea
+    pero como tenemos un volumen de caja 
+    muy grande pos se montan
+    display: line;
+    si yo tengo otra pagina y nesecito que 
+    tenga los mismos stilos tendria que 
+    modificarlo en la otra pagina y es
+    perdida de tiempo*/
+    background-color:skyblue;
+    width: 400%;
+    height: 500%;
+    
+    /*comentario en css
+    es lo que me separa del contenedor padre*/
+    margin:80px 20px;
+    /*margen interno*/
+    padding:10px;
+    /*borde de la ajita p todos estos 3
+    me generan volumen de caja
+    dotted es para punteado*/
+    border:10px solid gold;
+}
+span{
+    background-color: rgb(134, 122, 212);
+    color: azure;
+}
+#p3{
+    background-color: turquoise;
+    color: sienna;
+}
+.familiap{
+    background-color: rgb(12, 212, 112);
+
+}

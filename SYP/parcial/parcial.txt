@@ -1,0 +1,19 @@
+pregunta:
+1-Explique con sus palabras, que entiende por sistema
+ R//se considera un conjunto de elementos que actuan en armonia a fin de realizar un objetivo
+2-Mencione 3 ejemplos de sistemas abiertos y 3 ejermplos de sistemas cerrados
+ R//sistemas abiertos: una olla de agua hirviendo, una hoguera, las plantas
+   sistema cerrado: un globo inflado, una batetria de un auto, un televisor.
+3-que limitaciones significativas se tendrian si no aplicamos un enfoque de sistema?
+ R//una vision reduccionista del universo, centrada en objetos aislados, aislamiento disciplinario
+4-medio que utiliza una empresa para lograr sus objetivos. nos estamos refiriendo a:
+  R//las organizaciones
+5-que comparativo nos permite saber rapidamente que ha llegado el momento de tomar decisiones correctivas? R// Los mecanismos de control
+6-explique por que la toma de decisiones estrategicas en una organizacion, seria mejor utilizando sistemas informaticos? R//porque puedo sacar las conclusiones de como va mi empresa ya sea en tiempo real por ejemplo, tambien porque es mucho mas sencilla y mas fiable
+7-bajo el punto de vista de unidad productiva, que es una organizacion?
+ R//es una entidad social orientada hacia la consecucion de metas con base en un sitema coordinado y estructurado vinsulado con el entorno.
+8-bajo el enfoque de sistemas, explique, cuales serian las dificultades del administrador moderno? R//ir actualizando su conocimiento, que sea mas facil para el cliente.
+9-porque es importante conocer el organigrama de una organizacion al memento de analisis de los cambios o mejoras que se pueden hacer de esta?
+ R//es bueno conocerlo ya que sabemos con quien o a quien podemos preguntarle las cosas y asi hacernos mas facil a la hora del analisis
+10-es el paso inicial de un estudio organizacional:
+ R//vision de nuestro estudio, sus estrategias
